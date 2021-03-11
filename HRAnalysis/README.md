@@ -1,9 +1,9 @@
-#Human Resource Analytics (Using MapReduce)
+# Human Resource Analytics (Using MapReduce)
 
-##Objective 
+## Objective 
 Analyze the Human resource data set and generate various insights about why are our best and most experienced employees leaving prematurely? 
 
-##Data Description 
+## Data Description 
 1.	Satisfaction_level 
 2.	Last evaluation 
 3.	Number of projects 
@@ -15,7 +15,7 @@ Analyze the Human resource data set and generate various insights about why are 
 9.	Department 
 10.	Salary 
 
-##KPIs 
+## KPIs 
 1. Average satisfaction_level for individual Department. 
 2. How many employees are left in each individual Department? 
 3. Department wise average monthly working hour. 
@@ -32,6 +32,6 @@ Analyze the Human resource data set and generate various insights about why are 
 14. Salary Distribution of highly experienced employee in company. 
 15. In which department total no of project is greater than 40% of overall project. 
 
-##Solution:
+## Solution:
 1.	While solving all above the KPIs we have used only one mapper and one reducer job.. But in some of the cases we have also used the Customized class named : CustomizedValue.java
 2.	The solution of each KPIs is given in the different packages in the src folder. The package name for each KPIs solution is stating with com.kpi<number>.<some_name>.
